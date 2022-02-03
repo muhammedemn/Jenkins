@@ -1,13 +1,17 @@
 #!groovy
 
-        stage('Last Five Commits'){
-          echo "deneme jobı scann   sonnn"
+        stage('PARAMETRES'){
+          
                 properties([
   parameters([
-    string(branch: 'submodule', defaultValue: ''),
+    string(name: 'submodule', defaultValue: ''),
     string(name: 'submodule_branch', defaultValue: ''),
     string(name: 'commit_sha', defaultValue: ''),
   ])
 ])
+          
+   }
+stage('ECHO'){
+echo "deneme jobı scann   sonnn"
            echo "INFO: BRANCH NAME: $branch"
         }
