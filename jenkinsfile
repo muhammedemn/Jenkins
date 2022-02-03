@@ -1,0 +1,5 @@
+#!groovy
+
+        stage('Last Five Commits'){
+          echo "deneme jobı"
+        }
