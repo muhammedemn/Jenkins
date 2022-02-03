@@ -1,5 +1,5 @@
 #!groovy
 
         stage('Last Five Commits'){
-          echo "deneme jobı sonnn"
+          echo "deneme jobı scann   sonnn"
         }
