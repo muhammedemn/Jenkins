@@ -4,10 +4,10 @@
           echo "deneme jobı scann   sonnn"
                 properties([
   parameters([
-    string(name: 'submodule', defaultValue: ''),
+    string(branch: 'submodule', defaultValue: ''),
     string(name: 'submodule_branch', defaultValue: ''),
     string(name: 'commit_sha', defaultValue: ''),
   ])
 ])
-           echo "INFO: BRANCH NAME: $submodule"
+           echo "INFO: BRANCH NAME: $branch"
         }
