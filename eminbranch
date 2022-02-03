@@ -9,4 +9,5 @@
     string(name: 'commit_sha', defaultValue: ''),
   ])
 ])
+           echo "INFO: BRANCH NAME: $submodule"
         }
