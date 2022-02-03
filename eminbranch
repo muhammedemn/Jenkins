@@ -13,5 +13,5 @@
    }
 stage('ECHO'){
 echo "deneme jobı scann   sonnn"
-           echo "INFO: BRANCH NAME: $branch"
+           echo "INFO: BRANCH NAME: ${params.submodule}"
         }
