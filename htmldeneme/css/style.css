@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+.leftColumn{
+	float: left;
+	margin-right: 10px;
+	width: 163px;
+}
+.rightColumn{
+	float: right;
+	margin-left: 10px;
+	width: 263px;
+}
+.clearBoth{
+	clear: both;
+}
